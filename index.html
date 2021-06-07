@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#About" class="w3-button w3-bar-item">About</a>
+  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="DSC01039-Edit.jpg"
+  style="width:100%">
+  <img class="mySlides" src="DSC01715-Edit.jpg"
+  style="width:100%">
+  <img class="mySlides" src="DSC01791-Edit.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">SHUBHAM KASHYAP</h2>
+  <p class="w3-opacity"><i>ABOUT MY SELF</i></p>
+  <p class="w3-justify">I personally think that adventure is one of the best gifts you can give somebody and if that comes with a good company as an added bonus then you got something pretty close to perfection in my eyes.
+
+    Relationships can be very much like travels; with ups and downs and not without its challenges.  But as with travel you can reap rewards you never imagined.
+    
+    Every moment filled with smiles during trips and travels have the power to make couple emotionally closer, and adventure challenges con bring people together by creating a strong bond.
+    
+    If you and you partner love travel and adventure you will enjoy this heartwarming post with quotes that are guaranteed to make you want to travel with someone you love right now..</p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>MANALI</p>
+    <img src="DSC01797.jpg" alt="Random Name" style="width:100%">
+    <p>exciting and adventurous.</p>
+  </article>
+  <article class="w3-third">
+    <p>SUNSET</p>
+    <img src="DSC02049-Edit.jpg" alt="Random Name" style="width:100%">
+    <p>harmony and peace.</p>
+  </article>
+  <article class="w3-third">
+    <p>ADVENTURE</p>
+    <img src="DSC01703.jpg" alt="Random Name" style="width:100%">
+    <p>unconditional memory.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.google.com/" target="_blank">w3.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
